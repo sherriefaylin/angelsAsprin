@@ -2,6 +2,8 @@
 
 a little shpeel:
 
+*the interface is a slight mess, but is functional! 
+
 this is a conceptual design project that is supposed to be a metaphor for sleeping pills 😴
 
 how it works: 
