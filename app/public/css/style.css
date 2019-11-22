@@ -1,0 +1,217 @@
+
+
+#blob1 {
+    margin-top: -10%;
+    margin-left: -10%;
+    transition-duration: 1s;
+}
+
+#blob1:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#blob2 {
+    margin-top: 12%;
+    margin-left: -10%;
+    transition-duration: 1s;
+}
+#blob2:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#blob3 {
+    margin-top: 22%;
+    margin-left: 5%;
+    transition-duration: 1s;
+}
+#blob3:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#blob4 {
+    margin-top: -22%;
+    margin-left: 18%;
+    transition-duration: 1s;
+}
+#blob4:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#blob5 {
+    margin-top: 6%;
+    margin-left: 25%;
+    transition-duration: 1s;
+}
+#blob5:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#blob6 {
+    margin-top: -15%;
+    margin-left: 55%;
+    transition-duration: 1s;
+}
+#blob6:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#blob7 {
+    margin-top: 25%;
+    margin-left: 68%;
+    transition-duration: 1s;
+}
+#blob7:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#blob8 {
+    margin-top: -5%;
+    margin-left: 80%;
+    transition-duration: 1s;
+}
+#blob8:hover {
+    transform: scale(1.5, 1.5);
+}
+
+body {
+    transition-duration: 1s;
+    
+}
+
+.caption2 {
+    text-align: center;
+    font-family: didot;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.counter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-size: 20px;
+}
+
+#love-text, #me-text, #happy-text, #calm-text {
+    padding: 50px;
+}
+
+#howufeeling {
+    position: fixed;
+    z-index: 5;
+    margin-left: 350px;
+    margin-top: 225px;
+    width: 700px;
+}
+
+.how-long {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+#how-long {
+    width: 650px;
+    transform-origin: center center;
+    -webkit-animation: rotation 20s infinite linear;
+}
+
+
+.im-so-tired {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+#love-text, #me-text, #happy-text, #calm-text {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+#pickacolor {
+    height: 25px;
+    position: fixed;
+    margin-left: 620px;
+    margin-top: 55%;
+    transition-duration: 1s;
+}
+.picked-color {
+    width: 100%;
+    transition-duration: 1s;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.picked-color:hover {
+    transform: scale(1, 1)
+}
+
+
+.q1-blob {
+    position: fixed;
+    z-index: -5
+}
+
+.question2 {
+    text-align: center;
+    margin-top: 180px;
+    
+}
+
+#rb1, #rb2, #rb3, #rb4 {
+    width: 50px;
+}
+
+
+.rdo-btns {
+    text-align: center;
+}
+
+
+
+#text-gifs {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+#whatdouneed {
+    font-family: didot, serif;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+#whatfeeling {
+    font-family: didot, serif;
+    font-size: 24px;
+    font-weight: 800;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
