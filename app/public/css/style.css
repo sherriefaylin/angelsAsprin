@@ -102,8 +102,10 @@ body {
 #howufeeling {
     position: fixed;
     z-index: 5;
-    margin-left: 350px;
-    margin-top: 225px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 700px;
 }
 
@@ -148,8 +150,11 @@ body {
 #pickacolor {
     height: 25px;
     position: fixed;
-    margin-left: 620px;
-    margin-top: 55%;
+    position: absolute;
+    left: 50%;
+    /* top: 60%; */
+    transform: translate(-50%, -50%);
+
     transition-duration: 1s;
 }
 .picked-color {
