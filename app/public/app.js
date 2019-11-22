@@ -19,6 +19,8 @@ $(document).ready(function () {
   $("#happy-btn").hide();
   $("#calm-btn").hide();
   $(".q6").hide();
+  $(".q7").hide();
+  $(".q6-finish").hide();
 
 
 
@@ -472,7 +474,9 @@ $(document).ready(function () {
 
   $("#calm-text").click(function () {
     $(".q5").hide();
-    $(".q6").fadeIn();
+    setTimeout(function() {
+      $(".q6").fadeIn();
+    }, 2500)
     color--
     pulse++
   })
@@ -484,14 +488,64 @@ $(document).ready(function () {
 
   // QUESTION 6
 
-  $(document).keydown(function (e) {
-    // if (e.keyCode == 40) {
-    //   $("#text-gifs").attr('src', 'assets/q6/ilu.gif')
+  $("#text-gifs").click(function() {
+    $(this).attr('src', 'css/assets/q6/ilu_3.gif')
 
-    // }
+    $("#text-gifs").click(function() {
+      $(this).attr('src', 'css/assets/q6/notyourfault.gif')
+
+      $("#text-gifs").click(function() {
+        $(this).attr('src', 'css/assets/q6/igotu.gif')
+
+        setTimeout( function() {
+          $(".texts").hide();
+          $(".q6-finish").show();
+        }, 3000)
+
+      })
+
+    })
+
+  })
+
+  $("#beokay").click(function() {
+    color++
+    pulse--
+
+    // $(".q6").hide();
+    // $(".q7").fadeIn();
+  })
 
 
-  });
+  $("#ilu").click(function() {
+    color--
+    pulse--
+
+    // $(".q6").hide();
+    // $(".q7").fadeIn();
+  })
+
+
+  $("#notyourfault").click(function() {
+    color++
+    pulse++
+
+    // $(".q6").hide();
+    // $(".q7").fadeIn();
+  })
+
+
+  $("#igotu").click(function() {
+    color--
+    pulse--
+
+    // $(".q6").hide();
+    // $(".q7").fadeIn();
+  })
+
+
+
+
 
 });
 
