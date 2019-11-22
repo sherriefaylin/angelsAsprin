@@ -21,14 +21,11 @@ app.listen(PORT, function() {
 
 
 
-// johnnyfive
+// JOHNNY-FIVE (this is working! I just put a little testing code here.)
+// but eventually this is where I need to send the color and pulse data to calculate the light pattern
 
 var five = require("johnny-five");
 var board = new five.Board();
-
-var colorTest = 200;
-
-
 
 board.on("ready", function() {
   var led = new five.Led(11);

@@ -1,7 +1,7 @@
-var finalColor = require("../data/finalColor");
+var color = require("../data/color");
 
 module.exports = function(app) {
-    app.get("/api/colors", function(req, res) {
-        res.json(finalColor);
+    app.get("/api/colorData", function(req, res) {
+        res.json(color);
       });
 }

@@ -1,7 +1,8 @@
-var finalColor = [];
+// I tried to push the final color variable into this array 😥
+
+var color = [];
   
-  // Note how we export the array. This makes it accessible to other files using require.
 
   
 
-  module.exports = finalColor; 
+module.exports = color; 
