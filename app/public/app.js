@@ -508,39 +508,71 @@ $(document).ready(function () {
 
   })
 
+  $("#beokay").mouseenter(function () {
+    $("#beokay").css("transform", "scale(1.1)")
+  });
+
+
+  $("#beokay").mouseleave(function () {
+    $("#beokay").css("transform", "scale(1)")
+  });
+
   $("#beokay").click(function() {
     color++
     pulse--
 
-    // $(".q6").hide();
-    // $(".q7").fadeIn();
+    $(".q6").hide();
+    $(".q7").fadeIn();
   })
 
+  $("#ilu").mouseenter(function () {
+    $("#ilu").css("transform", "scale(1.1)")
+  });
+
+  $("#ilu").mouseleave(function () {
+    $("#ilu").css("transform", "scale(1)")
+  });
 
   $("#ilu").click(function() {
     color--
     pulse--
 
-    // $(".q6").hide();
-    // $(".q7").fadeIn();
+    $(".q6").hide();
+    $(".q7").fadeIn();
   })
+
+  $("#notyourfault").mouseenter(function () {
+    $("#notyourfault").css("transform", "scale(1.1)")
+  });
+
+  $("#notyourfault").mouseleave(function () {
+    $("#notyourfault").css("transform", "scale(1)")
+  });
 
 
   $("#notyourfault").click(function() {
     color++
     pulse++
 
-    // $(".q6").hide();
-    // $(".q7").fadeIn();
+    $(".q6").hide();
+    $(".q7").fadeIn();
   })
+
+  $("#igotu").mouseenter(function () {
+    $("#igotu").css("transform", "scale(1.1)")
+  });
+
+  $("#igotu").mouseleave(function () {
+    $("#igotu").css("transform", "scale(1)")
+  });
 
 
   $("#igotu").click(function() {
     color--
     pulse--
 
-    // $(".q6").hide();
-    // $(".q7").fadeIn();
+    $(".q6").hide();
+    $(".q7").fadeIn();
   })
 
 

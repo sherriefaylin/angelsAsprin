@@ -1,4 +1,8 @@
-
+#beokay, #ilu, #notyourfault, #igotu {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    transition-duration: 1s;
+}
 
 #blob1 {
     margin-top: -10%;
@@ -188,7 +192,7 @@ body {
     transform: translate(-50%, -50%);
     width: 400px;
     height: 400px;;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #rb1, #rb2, #rb3, #rb4 {
@@ -208,6 +212,10 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+#text-box {
+    margin-top: 162px;
 }
 
 
