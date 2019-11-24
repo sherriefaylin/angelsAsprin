@@ -21,6 +21,8 @@ $(document).ready(function () {
   $(".q6").hide();
   $(".q7").hide();
   $(".q6-finish").hide();
+  $("#h-e-1").hide();
+  $(".q8").hide();
 
 
 
@@ -35,6 +37,12 @@ $(document).ready(function () {
   setTimeout(function () {
     $("#pickacolor").css("margin-top", "55%")
   }, 2500)
+
+  setTimeout(function () {
+    $("#pickacolor").hide();
+  }, 3500)
+
+
 
 
 
@@ -55,6 +63,7 @@ $(document).ready(function () {
     $("#howufeeling").fadeOut();
 
     $(".q2").fadeIn();
+
   })
 
   $("#blob2").click(function () {
@@ -74,6 +83,7 @@ $(document).ready(function () {
     $("#howufeeling").fadeOut();
 
     $(".q2").fadeIn();
+    
   })
 
 
@@ -474,9 +484,8 @@ $(document).ready(function () {
 
   $("#calm-text").click(function () {
     $(".q5").hide();
-    setTimeout(function() {
       $(".q6").fadeIn();
-    }, 2500)
+
     color--
     pulse++
   })
@@ -574,6 +583,41 @@ $(document).ready(function () {
     $(".q6").hide();
     $(".q7").fadeIn();
   })
+
+
+
+  // QUESTION 7
+
+// *this is kind of wonky a;lskdfj
+
+$("#here").click(function() {
+  $(this).attr('src', 'css/assets/q7/here-elsewhere-rev.gif')
+
+  $("#here").click(function() {
+
+    $(this).attr('src', 'css/assets/q7/here-elsewhere.gif')
+
+    $("#here").click(function() {
+      $(this).attr('src', 'css/assets/q7/here-elsewhere-rev.gif')})
+
+
+
+  })
+
+
+})
+
+$("#done").click(function() {
+  $(".q7").hide();
+  $(".q8").show();
+})
+
+
+
+
+
+
+
 
 
 

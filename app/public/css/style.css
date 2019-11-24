@@ -136,6 +136,12 @@ body {
 }
 
 
+/* .here-elsewhere-bkgd {
+    background-image: url('assets/q7/here-elsewhere.gif');
+ 
+} */
+
+
 .im-so-tired {
     font-family: titling-gothic-fb-wide, sans-serif;
     font-weight: 400;
@@ -150,10 +156,22 @@ body {
     font-size: 20px;
 }
 
+.lying {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: didot, serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+
 
 #pickacolor {
     height: 25px;
-    position: fixed;
+
     position: absolute;
     left: 50%;
     /* top: 60%; */
@@ -218,14 +236,26 @@ body {
     margin-top: 162px;
 }
 
+#up-down {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
 
 
 
-#whatdouneed {
+
+#whatdouneed, #whatdoyouneed2 {
     font-family: didot, serif;
     font-size: 24px;
     font-weight: 800;
 
+}
+
+#whatdoyouneed2 {
+    margin-top: 100px;
+    text-align: center;
 }
 
 #whatfeeling {
