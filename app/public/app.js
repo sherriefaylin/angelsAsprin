@@ -23,6 +23,10 @@ $(document).ready(function () {
   $(".q6-finish").hide();
   $("#h-e-1").hide();
   $(".q8").hide();
+  // $(".l-2").hide();
+  $(".q9").hide();
+$(".temp-finish").hide();
+$("#plug-in").hide();
 
 
 
@@ -31,16 +35,16 @@ $(document).ready(function () {
   // QUESTION 1
 
   setTimeout(function () {
-    $("#pickacolor").css("margin-top", "48%")
+    $("#pick2").css("margin-top", "35%")
   }, 0)
 
   setTimeout(function () {
-    $("#pickacolor").css("margin-top", "55%")
-  }, 2500)
+    $("#pick2").css("margin-top", "100%")
+  }, 4000)
 
   setTimeout(function () {
-    $("#pickacolor").hide();
-  }, 3500)
+    $("#pick2").hide();
+  }, 4500)
 
 
 
@@ -231,6 +235,7 @@ $(document).ready(function () {
 
   $("#rb2").mouseenter(function () {
     $(this).attr('src', 'css/assets/q2/radiobtns/radiobtn-coffee_1.gif')
+    $(this).css('padding-top', '-50px')
 
     $("#coffee").fadeIn();
 
@@ -509,7 +514,7 @@ $(document).ready(function () {
         setTimeout( function() {
           $(".texts").hide();
           $(".q6-finish").show();
-        }, 3000)
+        }, 2500)
 
       })
 
@@ -613,6 +618,38 @@ $("#done").click(function() {
 })
 
 
+// QUESTION 8 
+$("#yes1").click(function() {
+  $(".l-1").css('visibility', 'hidden');
+  $(".l-2").css('visibility', 'visible');
+})
+
+$("#no1").click(function() {
+  $(".l-1").css('visibility', 'hidden');
+  $(".l-2").css('visibility', 'visible');
+})
+
+$("#yes2").click(function() {
+  $(".q8").hide();
+  $(".temp-finish").fadeIn();
+})
+
+$("#no2").click(function() {
+  $(".q8").hide();
+  $(".temp-finish").fadeIn();
+})
+
+// temp finish
+
+// setTimeout(function() {
+//   $("#calculating").hide();
+//   $("#final-pres").fadeIn();
+// }, 2500)
+
+$("#final-pres").click(function() {
+  $("#plug-in").fadeIn();
+  $("#final-pres").fadeOut();
+})
 
 
 

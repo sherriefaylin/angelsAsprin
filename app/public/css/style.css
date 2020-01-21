@@ -1,3 +1,15 @@
+#black-tint-bkgd {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
 #beokay, #ilu, #notyourfault, #igotu {
     padding-bottom: 7px;
     padding-top: 7px;
@@ -89,6 +101,10 @@ body {
     font-style: italic;
 }
 
+/* #coffee {
+    padding-top: -20px;
+} */
+
 .counter {
     position: absolute;
     left: 50%;
@@ -110,7 +126,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
+    width: 500px;
 }
 
 .how-long {
@@ -166,19 +182,49 @@ body {
     font-size: 14px;
 }
 
+.l-1, .l-2 {
+    transition-duration: 1s;
+}
+
+.l-2 {
+    visibility: hidden;
+
+}
+
+#pick2 {
+    z-index: 4;
+    /* font-family: didot, serif;
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid white; */
+    width: 120px;
+    transition-duration: 3s;
+
+    position: absolute;
+    left: 50%;
+    border-radius: 20px;
+   
+    transform: translate(-50%, -50%);
+    /* margin-top: 560px; */
+}
 
 
 
-#pickacolor {
+/* #pickacolor {
+    
     height: 25px;
 
     position: absolute;
     left: 50%;
-    /* top: 60%; */
+   
     transform: translate(-50%, -50%);
 
     transition-duration: 1s;
-}
+} */
+
+
 .picked-color {
     width: 100%;
     transition-duration: 1s;
@@ -258,10 +304,11 @@ body {
     text-align: center;
 }
 
-#whatfeeling {
+#whatfeeling, #final-pres, #plug-in {
     font-family: didot, serif;
     font-size: 24px;
     font-weight: 800;
+    font-style: italic;
 
     position: absolute;
     left: 50%;
@@ -269,3 +316,20 @@ body {
     transform: translate(-50%, -50%);
 
 }
+
+#done {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: didot, serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
